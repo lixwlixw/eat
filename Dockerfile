@@ -1,2 +1,2 @@
-FROM registry.dataos.io/library/httpd:2
+FROM registry.dataos.io/library/httpd:2.4
 COPY index/* /usr/local/apache2/htdocs/
